@@ -5,7 +5,6 @@
 		<remap from="depth" to="habitat/depth"/>
 	</node>
 	
-	
 	<node pkg="habitat_interface" type="rgb_ros.py" name="rgb_ros">
 		<remap from="rgb" to="habitat/rgb"/>
 	</node>
