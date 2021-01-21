@@ -1,6 +1,6 @@
 <launch>
 
-   <arg name="map_path" default="$(find habitat_interface)/maps/mymap.yaml"/>
+   <arg name="map_path" default="$(find habitat_interface)/maps/lab_walls.yaml"/>
 
    <master auto="start"/>
 
@@ -61,7 +61,7 @@
    <arg name="trajectory_update_rate" default="4"/>
    <arg name="trajectory_publish_rate" default="0.25"/>
    <arg name="map_file_path" default="$(find habitat_interface)"/>
-   <arg name="map_file_base_name" default="mymap.yaml"/>
+   <arg name="map_file_base_name" default="lab_walls.yaml"/>
 
 
    <node pkg="hector_trajectory_server" type="hector_trajectory_server" name="hector_trajectory_server" output="screen">

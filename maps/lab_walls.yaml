@@ -1,0 +1,7 @@
+image: /home/wouter/PycharmProjects/habitat_v20/catkin_ws/src/habitat_interface/maps/lab_walls.pgm
+resolution: 0.05
+origin: [-51.224998, -51.224998, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
