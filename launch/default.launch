@@ -13,7 +13,7 @@
 		<remap from="rgb" to="habitat/bc_sensor"/>
 	</node>
 
-<!--	<node pkg="joy" type="joy_node" name="joy_node">
+	<node pkg="joy" type="joy_node" name="joy_node">
 		<param name="autorepeat_rate " value="20" />
 		<param name="coalesce_interval " value="0.05" />
 	</node>
@@ -23,7 +23,7 @@
 	</node>
 	<node pkg="rqt_graph" type="rqt_graph" name="rqt_graph"/>
 	<node pkg="rqt_tf_tree" type="rqt_tf_tree" name="rqt_tf_tree"/>
--->
+
 
 	<node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">
 		<remap from="image" to="ros_img_depth"/>
